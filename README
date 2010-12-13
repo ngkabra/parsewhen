@@ -13,4 +13,10 @@ This is a simple module that can parse an informal specification of time and ret
 
 The relative times (starting with a '+') will be converted to an absolute time offset from now.
 
+Usage:
+        from parsewhen import parse_when
+        parse_when('Saturday 11:15 am')
+
+        (returns a datetime.datetime object)        
+        
 

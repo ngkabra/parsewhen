@@ -19,4 +19,7 @@ Usage:
 
         (returns a datetime.datetime object)        
         
+*Note: don't use this module unless you've already looked at dateutil.parser 
+and found it to be inappropriate for your use. *
+
 

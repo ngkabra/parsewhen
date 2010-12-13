@@ -1,0 +1,16 @@
+This is a simple module that can parse an informal specification of time and return a python datetime object. Time can be specified as:
+
+     11:15am
+     20:45
+     tomorrow 9am
+     Thursday 11:15
+     mon 6 am
+
+     +1h
+     +2d
+     +1h30m     
+     +7d 12h 30m
+
+The relative times (starting with a '+') will be converted to an absolute time offset from now.
+
+

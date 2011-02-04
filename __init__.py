@@ -1,4 +1,3 @@
-#!/usr/bin/python
 import re
 from datetime import datetime, date, time, timedelta
 
